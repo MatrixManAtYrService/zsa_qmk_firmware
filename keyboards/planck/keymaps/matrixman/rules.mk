@@ -1,2 +1,2 @@
-SRC += muse.c
 RGB_MATRIX_ENABLE = no
+AUDIO_ENABLE = no
