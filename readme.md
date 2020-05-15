@@ -44,3 +44,10 @@ To keep PRs small and easier to test, they should ideally be 1:1 with commits fr
 ## Merging
 
 Pull Requests should be merged/rebased, not squashed, so we can maintain a commit history that is close to QMK Firmware's, for ease of reference.
+
+## Building
+
+You can use Docker to build `.bin` files by running the command below from the directory that contains this readme
+
+    docker run -v "${PWD}:${PWD}" qmkfm/base_container bash -c "cd ${PWD} ; make clean <keyboard>:<keymap>"
+

@@ -1,2 +1,2 @@
-AUDIO_ENABLE = no
-MOUSEKEY_ENABLE = yes
+SRC += muse.c
+RGB_MATRIX_ENABLE = no
